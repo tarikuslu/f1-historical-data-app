@@ -231,7 +231,7 @@ function App() {
                 <input
                   type="checkbox"
                   className="toggle toggle-lg"
-                  data-toggle-theme="dark,light"
+                  data-toggle-theme="light,dark"
                   data-act-class="ACTIVECLASS"
                 />
 
