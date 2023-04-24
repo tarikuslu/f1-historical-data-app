@@ -177,14 +177,14 @@ function Table(props, ref) {
 
   return (
     <div className="overflow-x-auto">
-      <div className="bg-gray-100 ">
+      <footer className="footer flex justify-center p-4 bg-neutral text-neutral-content">
         <h1
           className="text-3xl max-[390px]:text-xl text-center py-3 font-bold "
           ref={ref}
         >
           {tableTitle}
         </h1>
-      </div>
+      </footer>
       <table className="table table-compact w-full">
         <thead>
           <tr>
