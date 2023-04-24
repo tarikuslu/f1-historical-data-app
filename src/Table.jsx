@@ -122,6 +122,19 @@ function Table(props, ref) {
       setBodyData(emptyArray);
       setHeadTitles(["Pos", "Driver", "Constructor", "Points", "Wins"]);
     } else if (props.dataType === "constructorStandings") {
+      if (!props.data.MRData.StandingsTable.StandingsLists.length) {
+        setBodyData([
+          {
+            position: " ",
+            constructor: " ",
+            nationality: " ",
+            points: " ",
+            wins: " ",
+          },
+        ]);
+        return;
+      }
+
       const [...res] =
         props.data.MRData.StandingsTable.StandingsLists[0].ConstructorStandings;
       let emptyArray = [];
@@ -176,7 +189,7 @@ function Table(props, ref) {
   }
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto w-screen">
       <footer className="footer flex justify-center p-4 bg-neutral text-neutral-content">
         <h1
           className="text-3xl max-[390px]:text-xl text-center py-3 font-bold "
