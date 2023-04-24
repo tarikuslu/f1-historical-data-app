@@ -127,6 +127,18 @@ function App() {
       className="bg-[url('https://wallup.net/wp-content/uploads/2019/09/97350-formula-one-formula-1-race-racing-f-1.jpg')] bg-no-repeat bg-cover bg-center min-h-screen max-w-screen "
       ref={topRef}
     >
+      <div className="fixed top-5 right-5">
+        <a
+          href="https://github.com/tarikuslu/f1-historical-data-app"
+          target="_blank"
+        >
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-256/github-1521500-1288242.png"
+            alt="github icon"
+            className="w-12"
+          />
+        </a>
+      </div>
       <div className="hero min-h-screen bg-base-200 bg-opacity-80">
         <div className="hero-content text-center">
           <div className="max-w-md">
