@@ -226,7 +226,7 @@ function App() {
               </button>
 
               <div className="flex items-center gap-3 ">
-                <span className="text-2xl">🌝</span>
+                <span className="text-2xl">🌚</span>
 
                 <input
                   type="checkbox"
@@ -235,7 +235,7 @@ function App() {
                   data-act-class="ACTIVECLASS"
                 />
 
-                <span className="text-2xl">🌚</span>
+                <span className="text-2xl">🌝</span>
               </div>
             </div>
           </div>
