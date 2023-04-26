@@ -165,7 +165,7 @@ function App() {
               </div>
             </div>
             <h1 className="text-5xl font-bold ">
-              F1 Historical Data Search App
+              F1 Grand Prix Data Search App
             </h1>
             <p className="py-6 text-lg ">
               You can search many detailed data up to 1950!
